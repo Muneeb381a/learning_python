@@ -4,8 +4,17 @@
 
 # print(result)
 
-username = "MuneebAfzalAfzal"
+# username = "MuneebAfzalAfzal"
 
-result = len(username)
+# result = len(username)
 
-print(result)
+# print(result)
+
+myList = [1, "Muneeb", 3.14]
+
+
+print(myList.__len__())
+
+myD = {'name': 'Muneeb', 'age': 20, 'Cast': 'Jutt'}
+
+print(myD['age'])
